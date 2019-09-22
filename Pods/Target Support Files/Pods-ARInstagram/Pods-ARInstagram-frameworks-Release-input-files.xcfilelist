@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-ARInstagram/Pods-ARInstagram-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Cache/Cache.framework
+${BUILT_PRODUCTS_DIR}/Gallery/Gallery.framework
+${BUILT_PRODUCTS_DIR}/Imaginary/Imaginary.framework
+${BUILT_PRODUCTS_DIR}/Lightbox/Lightbox.framework
+${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework
+${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework

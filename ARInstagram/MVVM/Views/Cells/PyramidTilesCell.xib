@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PyramidTilesCell" id="hhZ-Ym-gPD" customClass="PyramidTilesCell" customModule="ARAlbum" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="625" height="402"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="625" height="402"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ea5-oI-uA8">
+                        <rect key="frame" x="0.0" y="0.0" width="625" height="402"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Gjr-VM-HSH">
+                                <rect key="frame" x="136.5" y="25" width="352" height="352"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Rx-7h-97d" customClass="ClassicFramedImage" customModule="ARAlbum" customModuleProvider="target">
+                                        <rect key="frame" x="240" y="0.0" width="112" height="112"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="112" id="DgD-pZ-l2M"/>
+                                            <constraint firstAttribute="height" constant="112" id="Tkp-jW-d5e"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="RDn-5F-zJF">
+                                        <rect key="frame" x="120" y="120" width="232" height="112"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IRc-wb-W8h" customClass="ClassicFramedImage" customModule="ARAlbum" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="112" height="112"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="112" id="IkY-e7-NK6"/>
+                                                    <constraint firstAttribute="width" constant="112" id="ODQ-Oq-Jed"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L8j-tl-3y0" customClass="ClassicFramedImage" customModule="ARAlbum" customModuleProvider="target">
+                                                <rect key="frame" x="120" y="0.0" width="112" height="112"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="112" id="HTP-mZ-l9s"/>
+                                                    <constraint firstAttribute="height" constant="112" id="pcT-LG-ZFL"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="vtw-ex-qNX">
+                                        <rect key="frame" x="0.0" y="240" width="352" height="112"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1DS-x2-JOK" customClass="ClassicFramedImage" customModule="ARAlbum" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="112" height="112"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="112" id="3Cs-K5-UeQ"/>
+                                                    <constraint firstAttribute="height" constant="112" id="OoY-sf-Ed0"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xiC-hi-1mJ" customClass="ClassicFramedImage" customModule="ARAlbum" customModuleProvider="target">
+                                                <rect key="frame" x="120" y="0.0" width="112" height="112"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="112" id="CCn-Gz-5Rf"/>
+                                                    <constraint firstAttribute="height" constant="112" id="eCw-0Q-SaU"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ogy-Ln-QNA" customClass="ClassicFramedImage" customModule="ARAlbum" customModuleProvider="target">
+                                                <rect key="frame" x="240" y="0.0" width="112" height="112"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="112" id="Rsw-yO-Iin"/>
+                                                    <constraint firstAttribute="height" constant="112" id="lv1-BI-4qc"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="81Q-l9-8Xq">
+                                <rect key="frame" x="20" y="401" width="585" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1" id="gkf-Xi-Rzb"/>
+                                    <constraint firstAttribute="height" constant="1" id="iDL-DS-c90"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Gjr-VM-HSH" firstAttribute="centerY" secondItem="Ea5-oI-uA8" secondAttribute="centerY" id="4tI-Ue-peV"/>
+                            <constraint firstAttribute="bottom" secondItem="81Q-l9-8Xq" secondAttribute="bottom" id="Uif-r8-pt4"/>
+                            <constraint firstAttribute="trailing" secondItem="81Q-l9-8Xq" secondAttribute="trailing" constant="20" id="ZI7-7N-W5L"/>
+                            <constraint firstItem="81Q-l9-8Xq" firstAttribute="leading" secondItem="Ea5-oI-uA8" secondAttribute="leading" constant="20" id="ydM-Jb-4JN"/>
+                            <constraint firstItem="Gjr-VM-HSH" firstAttribute="centerX" secondItem="Ea5-oI-uA8" secondAttribute="centerX" id="zed-mY-lzW"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Ea5-oI-uA8" secondAttribute="trailing" id="8Fb-pa-2sj"/>
+                <constraint firstAttribute="bottom" secondItem="Ea5-oI-uA8" secondAttribute="bottom" id="R9u-Ta-3cr"/>
+                <constraint firstItem="Ea5-oI-uA8" firstAttribute="leading" secondItem="hhZ-Ym-gPD" secondAttribute="leading" id="Y05-7F-3K9"/>
+                <constraint firstItem="Ea5-oI-uA8" firstAttribute="top" secondItem="hhZ-Ym-gPD" secondAttribute="top" id="yea-h6-lpY"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="bWh-GK-2Vm"/>
+            <size key="customSize" width="625" height="400"/>
+            <connections>
+                <outlet property="level1Image1" destination="5Rx-7h-97d" id="l8i-0X-JuK"/>
+                <outlet property="level1Image2" destination="IRc-wb-W8h" id="rh3-wr-XWd"/>
+                <outlet property="level1Image3" destination="L8j-tl-3y0" id="Rys-4E-FTP"/>
+                <outlet property="level2Image1" destination="1DS-x2-JOK" id="Xj3-Xg-p3t"/>
+                <outlet property="level2Image2" destination="xiC-hi-1mJ" id="SmI-wO-ezm"/>
+                <outlet property="level3Image1" destination="Ogy-Ln-QNA" id="xBg-Bc-SUo"/>
+            </connections>
+            <point key="canvasLocation" x="180.43478260869566" y="-33.482142857142854"/>
+        </collectionViewCell>
+    </objects>
+</document>

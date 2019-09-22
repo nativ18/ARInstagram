@@ -1,0 +1,11 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Cache" "${PODS_CONFIGURATION_BUILD_DIR}/Gallery" "${PODS_CONFIGURATION_BUILD_DIR}/Imaginary" "${PODS_CONFIGURATION_BUILD_DIR}/Lightbox" "${PODS_CONFIGURATION_BUILD_DIR}/PromiseKit" "${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Cache/Cache.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Gallery/Gallery.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Imaginary/Imaginary.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Lightbox/Lightbox.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PromiseKit/PromiseKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD/SVProgressHUD.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "AVFoundation" -framework "AVKit" -framework "Cache" -framework "CoreLocation" -framework "Foundation" -framework "Gallery" -framework "Imaginary" -framework "Lightbox" -framework "Photos" -framework "PhotosUI" -framework "PromiseKit" -framework "QuartzCore" -framework "SVProgressHUD" -framework "UIKit"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ColumnsTilesCell" id="mk9-kQ-l8Y" customClass="ColumnsTilesCell" customModule="ARAlbum" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="780" height="390"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="780" height="390"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T6S-3I-qro">
+                        <rect key="frame" x="0.0" y="0.0" width="780" height="390"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xes-S9-bdU">
+                                <rect key="frame" x="20" y="389" width="740" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="zdy-5L-yiC"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="fPk-Lv-uMJ">
+                                <rect key="frame" x="334" y="19" width="112" height="352"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OFq-55-MNp" userLabel="Image1" customClass="ClassicFramedImage" customModule="ARAlbum" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="112" height="112"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="112" id="AMs-bY-LVO"/>
+                                            <constraint firstAttribute="height" constant="112" id="h99-wl-plF"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KYF-9W-pme" userLabel="Image2" customClass="ClassicFramedImage" customModule="ARAlbum" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="120" width="112" height="112"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="112" id="2nA-Z5-NgF"/>
+                                            <constraint firstAttribute="width" constant="112" id="Cnv-Rb-Ztv"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q47-7g-ZDE" userLabel="Image3" customClass="ClassicFramedImage" customModule="ARAlbum" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="240" width="112" height="112"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="112" id="1Tb-Bl-WAZ"/>
+                                            <constraint firstAttribute="height" constant="112" id="A8Y-YX-ruT"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="112" id="dvm-HX-MxG"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Xes-S9-bdU" secondAttribute="trailing" constant="20" id="Skq-Ep-2JT"/>
+                            <constraint firstItem="Xes-S9-bdU" firstAttribute="leading" secondItem="T6S-3I-qro" secondAttribute="leading" constant="20" id="ZMC-NJ-oxY"/>
+                            <constraint firstAttribute="bottom" secondItem="Xes-S9-bdU" secondAttribute="bottom" id="iKm-Jn-rtd"/>
+                            <constraint firstItem="fPk-Lv-uMJ" firstAttribute="centerX" secondItem="T6S-3I-qro" secondAttribute="centerX" id="qil-4W-Ypy"/>
+                            <constraint firstItem="fPk-Lv-uMJ" firstAttribute="centerY" secondItem="T6S-3I-qro" secondAttribute="centerY" id="wJa-AQ-tMb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="T6S-3I-qro" firstAttribute="top" secondItem="mk9-kQ-l8Y" secondAttribute="top" id="KaM-XF-r0Z"/>
+                <constraint firstItem="T6S-3I-qro" firstAttribute="leading" secondItem="mk9-kQ-l8Y" secondAttribute="leading" id="Uxg-d3-YTQ"/>
+                <constraint firstAttribute="bottom" secondItem="T6S-3I-qro" secondAttribute="bottom" id="kZP-Z1-90O"/>
+                <constraint firstAttribute="trailing" secondItem="T6S-3I-qro" secondAttribute="trailing" id="nci-op-TX0"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="P50-wh-z1C"/>
+            <size key="customSize" width="780" height="514"/>
+            <connections>
+                <outlet property="frame1" destination="OFq-55-MNp" id="6fl-Dq-Y3c"/>
+                <outlet property="frame2" destination="KYF-9W-pme" id="U8I-iU-1ee"/>
+                <outlet property="frame3" destination="Q47-7g-ZDE" id="7NY-nn-5MO"/>
+            </connections>
+            <point key="canvasLocation" x="403" y="-322"/>
+        </collectionViewCell>
+    </objects>
+</document>

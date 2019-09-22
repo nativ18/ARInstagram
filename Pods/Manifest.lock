@@ -1,0 +1,44 @@
+PODS:
+  - Cache (5.2.0)
+  - Gallery (2.2.0)
+  - Imaginary (4.2.0):
+    - Cache (~> 5.0)
+  - Lightbox (2.3.0):
+    - Imaginary (~> 4.0)
+  - PromiseKit (6.8.5):
+    - PromiseKit/CorePromise (= 6.8.5)
+    - PromiseKit/Foundation (= 6.8.5)
+    - PromiseKit/UIKit (= 6.8.5)
+  - PromiseKit/CorePromise (6.8.5)
+  - PromiseKit/Foundation (6.8.5):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.8.5):
+    - PromiseKit/CorePromise
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Gallery
+  - Lightbox
+  - PromiseKit
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Cache
+    - Gallery
+    - Imaginary
+    - Lightbox
+    - PromiseKit
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Cache: 807c5d86d01a177f06ede9865add3aea269bbfd4
+  Gallery: 3f4c780c4b22906d6b0a5e55d12167cdc4b4fc5b
+  Imaginary: dae33d06dbc2ada22f98afef5eb45cc061311a2c
+  Lightbox: d317750e4132bfb871a5307cfe0a2c7d6a583c65
+  PromiseKit: 9616b0afef31eae56ab9ce044c8ec2b8612a15cd
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 6db6c5cea5e43d7e936bae803d5ba07e8be06d38
+
+COCOAPODS: 1.7.5
